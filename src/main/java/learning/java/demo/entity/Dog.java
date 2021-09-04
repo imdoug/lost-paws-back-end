@@ -23,17 +23,45 @@ public class Dog{
 
     public String image;
 
+    public String fur;
+
+    public String ears;
+
+    public String size;
+
+    public String color;
+
+    public String  neutured;
+
+    public String gender;
+
+    public String location;
+
+    public String date;
+
+
+
+
     //**************************************** */
     //  Constructors
     //**************************************** */
     public Dog(){
 
     }
-    public Dog(String name, Integer age, String breed, String image){
+    public Dog(String name, Integer age, String breed, String image, String color, String fur, String ears, String  size, String neutured, String gender, String location, String date){
         this.age = age;
         this.name = name;
         this.breed = breed;
         this.image = image;
+        this.fur = fur;
+        this.ears = ears;
+        this.size = size;
+        this.color = color;
+        this.neutured = neutured;
+        this.gender = gender;
+        this.location = location;
+        this.date = date;
+
     }
     // Getters and starters
 
@@ -67,7 +95,54 @@ public class Dog{
     public void setImage(String image){
         this.image= image;
     }
-
+    public String getFur(){
+        return this.fur;
+    }
+    public void setFur(String fur){
+        this.fur= fur;
+    }
+    public String getEars(){
+        return this.ears;
+    }
+    public void setEars(String ears){
+        this.ears = ears;
+    }
+    public String getSize(){
+        return this.size;
+    }
+    public void setSize(String size){
+        this.size = size;
+    }
+    public String getColor(){
+        return this.color;
+    }
+    public void setColor(String color){
+        this.color = color;
+    }
+    public String getNeutured(){
+        return this.neutured;
+    }
+    public void setNeutured(String neutured){
+        this.neutured = neutured;
+    }
+    public String getGender(){
+        return this.gender;
+    }
+    public void setGender(String gender){
+        this.gender = gender;
+    }
+    public String getLocation(){
+        return this.gender;
+    }
+    public void setLocation(String location){
+        this.location = location;
+    }
+    public String getDate(){
+        return this.date;
+    }
+    public void setDate(String date){
+        this.date = date;
+    }
 
 }
 // public class entities {

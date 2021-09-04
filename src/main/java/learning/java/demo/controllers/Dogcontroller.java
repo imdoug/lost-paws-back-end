@@ -50,6 +50,14 @@ public class Dogcontroller {
             dog.setAge(fixDog.getAge());
             dog.setBreed(fixDog.getBreed());
             dog.setImage(fixDog.getImage());
+            dog.setFur(fixDog.getFur());
+            dog.setEars(fixDog.getEars());
+            dog.setSize(fixDog.getSize());
+            dog.setColor(fixDog.getColor());
+            dog.setNeutured(fixDog.getNeutured());
+            dog.setGender(fixDog.getGender());
+            dog.setLocation(fixDog.getLocation());
+            dog.setDate(fixDog.getDate());
             Dogs.save(dog);
             return dog;
         })
