@@ -15,7 +15,7 @@ public class Dog{
     @GeneratedValue(strategy = GenerationType.AUTO)
     public Integer id;
 
-    public String report_type;
+    public String report;
 
     public String name;
 
@@ -50,8 +50,8 @@ public class Dog{
     public Dog(){
 
     }
-    public Dog(String name, Integer age, String breed, String image, String color, String fur, String ears, String  size, String neutured, String gender, String location, String date, String report_type){
-        this.report_type = report_type;
+    public Dog(String name, Integer age, String breed, String image, String color, String fur, String ears, String  size, String neutured, String gender, String location, String date, String report){
+        this.report = report;
         this.age = age;
         this.name = name;
         this.breed = breed;
@@ -147,10 +147,10 @@ public class Dog{
         this.date = date;
     }
     public String getReport(){
-        return this.report_type;
+        return this.report;
     }
-    public void setReport(String report_type){
-        this.report_type = report_type;
+    public void setReport(String report){
+        this.report = report;
     }
 
 }
