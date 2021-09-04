@@ -46,6 +46,7 @@ public class Dogcontroller {
     public List<Dog> update(@RequestBody Dog fixDog, @PathVariable Integer id){
         // find dog by its id then user map to updated it 
         Dogs.findById(id).map(dog ->{
+            dog.setReport(fixDog.getReport());
             dog.setName(fixDog.getName());
             dog.setAge(fixDog.getAge());
             dog.setBreed(fixDog.getBreed());
