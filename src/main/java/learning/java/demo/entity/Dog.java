@@ -135,7 +135,7 @@ public class Dog{
         this.gender = gender;
     }
     public String getLocation(){
-        return this.gender;
+        return this.location;
     }
     public void setLocation(String location){
         this.location = location;
