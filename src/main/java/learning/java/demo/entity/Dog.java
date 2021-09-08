@@ -156,10 +156,10 @@ public class Dog{
         this.report = report;
     }
     public String getComments(){
-        return this.report;
+        return this.comments;
     }
     public void setComments(String report){
-        this.report = report;
+        this.report = comments;
     }
 
 }
