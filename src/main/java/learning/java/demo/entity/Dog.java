@@ -41,6 +41,8 @@ public class Dog{
 
     public String date;
 
+    public String comments;
+
 
 
 
@@ -50,7 +52,7 @@ public class Dog{
     public Dog(){
 
     }
-    public Dog(String name, Integer age, String breed, String image, String color, String fur, String ears, String  size, String neutured, String gender, String location, String date, String report){
+    public Dog(String name, Integer age, String breed, String image, String color, String fur, String ears, String  size, String neutured, String gender, String location, String date, String report,String comments){
         this.report = report;
         this.age = age;
         this.name = name;
@@ -64,6 +66,7 @@ public class Dog{
         this.gender = gender;
         this.location = location;
         this.date = date;
+        this.comments = comments;
 
     }
     // Getters and starters
@@ -150,6 +153,12 @@ public class Dog{
         return this.report;
     }
     public void setReport(String report){
+        this.report = report;
+    }
+    public String getComments(){
+        return this.report;
+    }
+    public void setComments(String report){
         this.report = report;
     }
 

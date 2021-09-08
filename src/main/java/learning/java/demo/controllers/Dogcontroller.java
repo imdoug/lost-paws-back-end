@@ -59,6 +59,7 @@ public class Dogcontroller {
             dog.setGender(fixDog.getGender());
             dog.setLocation(fixDog.getLocation());
             dog.setDate(fixDog.getDate());
+            dog.setComments(fixDog.getComments());
             Dogs.save(dog);
             return dog;
         })
