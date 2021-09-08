@@ -158,8 +158,8 @@ public class Dog{
     public String getComments(){
         return this.comments;
     }
-    public void setComments(String report){
-        this.report = comments;
+    public void setComments(String comments){
+        this.comments = comments;
     }
 
 }
